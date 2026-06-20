@@ -1,0 +1,13 @@
+{
+  "name": "weibo-baidupan-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "每日自动检查微博二宫和也帖子，提取百度网盘链接并自动转存",
+  "scripts": {
+    "start": "node src/index.js",
+    "login": "node src/login-helper.js"
+  },
+  "dependencies": {
+    "puppeteer": "^24.0.0"
+  }
+}
